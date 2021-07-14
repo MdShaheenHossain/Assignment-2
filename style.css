@@ -1,0 +1,203 @@
+/* Fond style for h3*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* ------------Fond style for Copyright----------- 
+------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+.top-three-player-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;    
+}
+.top-three-players img{
+    width: 300px;
+    height: 256px;
+    padding: 5px;
+}
+.top-three-players{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px grey;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.player-name{
+    margin-top: 16px;
+    margin-bottom:10px;
+}
+.other-players{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;  
+    margin-top: 27px;
+    
+}
+.players img{
+    margin-left: auto;
+    margin-right:auto; 
+    width: 300px;
+    height: 256px;
+    padding: 5px;
+   
+}
+.players{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px grey;
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.footer img{
+    width: 484px;
+    height: 110px;
+}
+.bottom-part{
+    margin-top: 158px;
+}
+.logo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    column-gap:14px ;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.copyright{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 63px;
+    font-size: 18px;
+}
+
+   h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+  
+   }  
+   
+   .banner img{
+       width: 556px;
+       height: 438px;
+       margin-top: 153px;
+       margin-right: 141px;
+       margin-left: 102px;
+   }
+   .menue-container{
+       display: flex;
+       background-color: blue;
+       
+   }
+   .header-title{
+       margin-top: 207px;
+       margin-left: 156px;
+       margin-bottom: 27px;
+       line-height: 80px;
+       color: white;
+       font-weight: 700px;
+       font-family: 'Poppins', sans-serif;
+       
+       
+       
+   }
+   .header-part{
+       margin-bottom: 70px;
+
+   }
+   body{
+       margin: 0px;
+   }
+   
+
+   .menue-container:hover .banner-image{
+      transform: rotate(60deg);
+   }
+   .banner-image{
+       transition: transform 2s ;
+   }
+.button{
+  
+    margin-top: 17px;
+    margin-bottom: 169px;
+    text-decoration: none;
+    width:168px ;
+    height: 44px;
+    padding: 10px 24px;
+    color: white;
+    background-color:  #E02C6D;
+    border-radius: 5px;
+
+}
+.highlights-part{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+}
+.highlights{
+    width: 469px;
+    height: 309px;
+    margin-top: 224px;
+    margin-left: 182px;
+    margin-bottom: 217px;
+}
+.highlight-image{
+    margin-top: 165px;
+    margin-right: 156px;
+    margin-bottom: 158px;
+}
+.highlights-title{
+    margin-bottom: 8px;
+}
+@media only screen and (max-width:688px) {
+    .menue-container{
+        flex-direction: column;
+    }
+    .top-three-player-list{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .other-players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+    }
+    @media only screen and (min-width:669px) and (max-width:992px){
+
+        .menue-container{
+            flex-direction: column column;
+        }
+        .top-three-player-list{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .other-players{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .highlights-part{
+            grid-template-columns: repeat(2,1fr);
+        } 
+    }
+
+
+
